@@ -1,0 +1,28 @@
+Project: Unscramble Computer Science Problems
+
+This file contains a run time analysis (Worst-Case Big-O Notation) of my solutions to each of the problems.
+
+
+##### Task0.py #####
+Time Complexity: O(1)
+This task takes constant time because the size of the input does not affect the run time.
+
+
+##### Task1.py #####
+Time Complexity: O(n)
+In this task, the two lists (texts and calls) are looped through once each. Therefore, we have O(2n), which is then simplified to O(n).
+
+
+##### Task2.py #####
+Time Complexity: O(n)
+In this task, the calls list is looped through once.
+
+
+##### Task3.py #####
+Time Complexity: O(n log n)
+In this task, the time complexity of the for loop is O(n) and the time complexity of the Python sort (sorting the area codes) is, according to documentation found on https://wiki.python.org/moin/TimeComplexity, O(n log n). Therefore, we have O(n + n log n), which is then simplified to O(n log n).
+
+
+##### Task4.py #####
+Time Complexity: O(n log n)
+In this task, the time complexity of the for loop is O(n) and the time complexity of the Python sort (sorting possible telemarketers) is, according to documentation found on https://wiki.python.org/moin/TimeComplexity, O(n log n). Therefore, we have O(n + n log n), which is then simplified to O(n log n).
