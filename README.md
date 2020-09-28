@@ -14,8 +14,7 @@ In this project, I completed six tasks. The tasks covered a variety of topics re
 * Problem 3: Huffman Coding
 * Problem 4: Active Directory
 * Problem 5: Blockchain
-* Problem 6: Union and Intersection
-<br />
+* Problem 6: Union and Intersection <br />
 All tasks were completed using Python. 
 <br />
 Determined the time complexity and the space complexity (Worst-Case Big-O Notation) of each solution.
