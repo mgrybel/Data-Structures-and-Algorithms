@@ -1,0 +1,3 @@
+In Problem 3, Rearrange Array Digits, the Merge Sort algorithm was selected to sort a given array in a descending order. The time complexity of the Merge Sort is O(n log(n)) since we are making n comparisons for log(n) steps. Next, we go through the sorted array, and we distribute the digits by assigning the largest number first, and each digit is placed at the end of the number. The time complexity of this operation is O(n).
+
+The space complexity is O(n) because we only need maximum the number of elements in the given input. In the Merge Sort, we need two different arrays at every step, the array that our numbers were in and the new array that we are copying the values into (we operate under the assumption that we get rid of the old arrays whenever we are done).
